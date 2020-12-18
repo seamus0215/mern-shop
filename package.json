@@ -1,0 +1,26 @@
+{
+  "name": "mern-market",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Amazon Clone Build",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seamus0215/mern-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seamus0215/mern-shop/issues"
+  },
+  "homepage": "https://github.com/seamus0215/mern-shop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
